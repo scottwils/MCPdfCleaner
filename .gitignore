@@ -8,6 +8,11 @@ __pycache__/
 *.py[cod]
 *.egg-info/
 
+# archive/ contents are intentionally KEPT in git (convenience launchers
+# for end users) — only ignore noisy OS/IDE files inside it if any appear.
+archive/**/.DS_Store
+archive/**/__pycache__/
+
 # IDE / OS
 .idea/
 .vscode/
